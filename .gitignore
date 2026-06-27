@@ -1,0 +1,11 @@
+# Node
+node_modules/
+dist/
+build/
+
+# Rust
+target/
+
+# Misc
+.DS_Store
+.env
