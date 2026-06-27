@@ -33,9 +33,8 @@ This project features:
 
 ### Test Output (6 passing tests)
 > Add `cargo test` output screenshot here
-
-### Wallet Connected + Live Auctions
-> Add screenshot here
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0aa1bfd7-4eac-445f-981c-f0f96f25f3ae" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ac94c540-d359-47dc-9410-9b959f6f2992" />
 
 ## ⚙️ Setup & Run Locally
 
