@@ -5,7 +5,7 @@ use soroban_sdk::{testutils::Address as _, Address, Env, String};
 fn setup() -> (Env, NFTAuctionHouseClient<'static>, Address) {
     let env = Env::default();
     env.mock_all_auths();
-    let contract_id = env.register_contract(None, NFTAuctionHouse);
+    let contract_id = env.register(NFTAuctionHouse, ());
     let client = NFTAuctionHouseClient::new(&env, &contract_id);
     let admin = Address::generate(&env);
     client.init(&admin);
@@ -66,9 +66,8 @@ fn test_bid_must_be_higher() {
 
     client.place_bid(&1, &bidder1, &1000);
 
-    let result = std::panic::catch_unwind(|| {
-        client.place_bid(&1, &bidder2, &500);
-    });
+    // Lower bid should fail — use should_panic
+    let result = client.try_place_bid(&1, &bidder2, &500);
     assert!(result.is_err());
 }
 
@@ -106,9 +105,8 @@ fn test_cannot_bid_on_ended_auction() {
 
     client.end_auction(&seller, &1);
 
-    let result = std::panic::catch_unwind(|| {
-        client.place_bid(&1, &bidder, &1000);
-    });
+    // Bidding on ended auction should fail
+    let result = client.try_place_bid(&1, &bidder, &1000);
     assert!(result.is_err());
 }
 
