@@ -33,6 +33,8 @@ This project features:
 
 ### Test Output (6 passing tests)
 > Add `cargo test` output screenshot here
+<img width="907" height="392" alt="image" src="https://github.com/user-attachments/assets/86c3bbc2-6f47-450e-9ff5-05945ae99f9a" />
+
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0aa1bfd7-4eac-445f-981c-f0f96f25f3ae" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ac94c540-d359-47dc-9410-9b959f6f2992" />
 
