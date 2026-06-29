@@ -30,6 +30,7 @@ This project features:
 ![alt text](image-1.png)
 ### CI/CD Pipeline Running
 > Add GitHub Actions screenshot here
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fe3155da-78ba-4855-9af0-359b4f015bfe" />
 
 ### Test Output (6 passing tests)
 > Add `cargo test` output screenshot here
