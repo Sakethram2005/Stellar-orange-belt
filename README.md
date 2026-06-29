@@ -3,7 +3,7 @@
 A production-ready NFT auction dApp built on Stellar Soroban testnet. Create auctions, place bids, and track live contract events in real time.
 
 ## 🌐 Live Demo
-> [Add your Vercel URL here after deployment]
+[> [Vercel URL deployment]](https://stellar-orange-belt-bvgqsvlu0-thammandra-saketh-ram.vercel.app)
 
 ## 📋 Project Overview
 
@@ -29,11 +29,11 @@ This project features:
 ![alt text](image.png)
 ![alt text](image-1.png)
 ### CI/CD Pipeline Running
-> Add GitHub Actions screenshot here
+
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fe3155da-78ba-4855-9af0-359b4f015bfe" />
 
 ### Test Output (6 passing tests)
-> Add `cargo test` output screenshot here
+
 <img width="907" height="392" alt="image" src="https://github.com/user-attachments/assets/86c3bbc2-6f47-450e-9ff5-05945ae99f9a" />
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0aa1bfd7-4eac-445f-981c-f0f96f25f3ae" />
@@ -121,7 +121,3 @@ nft-auction-house/
 - **CI/CD**: GitHub Actions
 - **Hosting**: Vercel
 
-## 📝 Transaction Hash (Contract Interaction)
-
-> [Add your transaction hash here from a real donate/bid call]
-> Verifiable at: https://stellar.expert/explorer/testnet/tx/YOUR_TX_HASH
